@@ -28,7 +28,7 @@ public class Main {
         System.out.println(object);
         // JDK8的Lambda表达式，简化撰写，前提是接口只定义了一个方法，比如Aciton
         Action action = () ->
-          System.out.println("匿名实现Action接口的Execute方法");
+        System.out.println("匿名实现Action接口的Execute方法");
 
         action.execute();
     }
